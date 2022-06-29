@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vacation list</title>
+<link rel="stylesheet" href="vacation.css">
+<script src="vacation.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Vacation Destination List</h1>
+    <p>Found exciting places to visit on your next vacation?Use the form bbelow to add them to your Wish list</p>
+
+</header>
+<main>
+    <form id="destination_detail_form">
+
+    <label for="name">Destination Name</label>
+    <input type="text" id="name" placeholder="Name of Destination" required>
+
+    <label for="Location"> Destination Location</label>
+    <input type="text" id="location" placeholder="Where is this place located">
+
+    <label for="photo">Photo </label>
+    <input type="url" id="photo" placeholder="Provide url">
+
+    <label for="description">Destination Description</label>
+    <textarea id="description" placeholder="Describe the destination" ></textarea>
+    <button type="submit">Add to wish list</button>
+
+    </form>
+    <article>
+        <h2 id="title">Enter Destination Details</h2>
+        <div id="destination_container">
+            <!-- content by javascript -->
+            <!-- #1 -->
+            <div class="card">  
+                <!-- <img src="images/signpost.jpg" >
+                <div class="card-body">
+                    <h3>Destination Name</h3>
+                    <h4>Destination Location</h4>
+                    <p class="card-text">Destination Description</p>
+                    <button>Remove</button>
+                </div> -->           
+
+            </div>
+        </div>
+    </article>
+    
+</main>
+
+</body>
+</html>
