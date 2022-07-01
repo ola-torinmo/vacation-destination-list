@@ -8,8 +8,7 @@
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
-- Validate the sign up form
+make a wish list for vacation spots by inputing it's details
 ### Screenshot
 
 ![](./images/screencapture-127-0-0-1-5500-index-html-2022-07-01-06_29_45.png)
